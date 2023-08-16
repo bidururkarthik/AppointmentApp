@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.bgcontainer {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+.appointmentcontainer {
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.userinputcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.usertakentakencontainer {
+  margin-top: 50px;
+}
+
+.addbutton {
+  background-color: #8b5cf6;
+  border-radius: 3px;
+  padding: 5px;
+  width: 40px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+.appointmentimage {
+  height: 200px;
+  width: 310px;
+}
+
+.liststared {
+  display: flex;
+  justify-content: space-between;
+}
+
+.staredbutton {
+  background-color: transparent;
+  border-color: #8b5cf6;
+  font-family: 'Roboto';
+  color: #8b5cf6;
+  height: fit-content;
+  width: 120px;
+  padding: 9px;
+  border-radius: 50px;
+  border-width: 1px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.appoinmentsheading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.Appointmentrowcontainer {
+  display: flex;
+}

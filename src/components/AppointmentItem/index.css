@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.appoinmentlistcontainer {
+  height: max-content;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding: 8px;
+  list-style: none;
+  margin: 5px;
+}
+
+.listcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starbutton {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.titleappoinment {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: black;
+}
+
+.dateappoinments {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #b5b7c4;
+}
